@@ -7,11 +7,14 @@ public class SimpleForSample {
         /*for文をStreamに変換し出力*/
 
         List<String> names = List.of("yamada", "tanaka", "yasuda", "suzuki", "iida");
-        List<String> result = IntStream.range(0, names.size()).filter(i -> names.get(i).contains("a"))
-                .mapToObj(names::get)
-                .toList();
+        filterNameContainigA(names);
+    }
 
-        System.out.println(result);
+        public static void filterNameContainigA(List<String> names) {
+        IntStream.range(0, names.size())
+                .filter(i -> names.get(i).contains("a"))
+                .mapToObj(names::get)
+                .forEach(System.out::println);
     }
 }
 
