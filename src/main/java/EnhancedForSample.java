@@ -14,4 +14,3 @@ public class EnhancedForSample {
                 .forEach(System.out::println);
     }
 }
-
