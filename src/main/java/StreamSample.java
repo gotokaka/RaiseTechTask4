@@ -10,7 +10,7 @@ public class StreamSample {
     public static void filterNameContainingA(List<String> names) {
         names.stream()
                 .filter(name -> name.contains("a"))
-                .toList().forEach(System.out::println); //*toList()があっても動くが必要か？*//
+                .forEach(System.out::println); //*toList()削除*//
     }
 }
 
