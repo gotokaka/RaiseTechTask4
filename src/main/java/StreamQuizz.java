@@ -1,7 +1,6 @@
 import java.util.List;
 
 public class StreamQuizz {
-    /*メソッド参照で書けそうな部分を書き換えた。ただ冗長になっている部分もある気がする*/
     public static void main(String[] args) {
         List<String> names = List.of("yamada", "tanaka", "yasuda", "suzuki", "iida");
         sortedResult(names);
