@@ -8,3 +8,8 @@ JavaのStreamを学ぶためのサンプルプロジェクトをcloneしてき�
 - Java 17
 - IntelliJ
 
+# 第5週課題 Pull Request
+
+第4週課題のStreamのサンプルプロジェクト使ってPRします。
+課題提出用です。
+

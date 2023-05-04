@@ -6,7 +6,6 @@ public class MethodReference {
         List<String> names = List.of("yamada", "tanaka", "yasuda", "suzuki", "iida");
         /*ラムダ式をメソッド参照に変換*/
         names.stream().map(String::toUpperCase).forEach(System.out::println);
-        names.stream().map(String::toUpperCase).forEach(System.out::println);
     }
 }
 
